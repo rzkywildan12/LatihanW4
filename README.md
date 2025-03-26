@@ -129,7 +129,7 @@ int main() {
   * Pilihan selain 1-4 akan menampilkan "Pesan tidak valid, coba lagi".
 --- 
 **Contoh Eksekusi Program**
-<br>Contoh 1 : Menambahkan Pelanggan
+<br>🔷Contoh 1 : Menambahkan Pelanggan
 ```
 Sistem Antrian Bank/Rumah Sakit
 1. Tambah pelanggan
@@ -140,8 +140,26 @@ Pilihan : 1
 Masukan nama pelanggan : Andi
 Pelanggan Andi dengan nomor antrian 1 telah ditambahkan.
 ```
-<br>Contoh 2 : Menampilkan Antrian<br />
-
+<br>🔷Contoh 2 : Menampilkan Antrian<br />
+```
+Sistem Antrian Bank/Rumah Sakit
+1. Tambah pelanggan
+2. Layani pelanggan
+3. Tamppilkan antrian
+4. Keluar
+Pilihan : 3
+Daftar antrian pelanggan :
+Nomor 1 - Andi
+```
+<br>🔷Contoh 3 : Melayani Pelanggan<br />
+```
+Sistem Antrian Bank/Rumah Sakit
+1. Tambah pelanggan
+2. Layani pelanggan
+3. Tamppilkan antrian
+4. Keluar
+Pilihan : 2
+Melaya
 
 
 
