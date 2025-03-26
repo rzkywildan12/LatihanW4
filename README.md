@@ -1,6 +1,6 @@
 # A. Deskripsi Lengkap Program antrianQueue.cpp
 ---
-# 📌1. STRUKTUR PROGRAM
+## 📌1. STRUKTUR PROGRAM
 Program ini terdiri dari beberapa bagian utama :
 <br>**1. Library yang digunakan**
 ```
@@ -23,7 +23,7 @@ struct Customer {
 * `number` &rarr; Berguna untuk menyimpan nomor antrian pelanggan
 * `name` &rarr; Berguna untuk menyimpan nama pelanggan
 ---
-# 📌3. VARIABEL GLOBAL
+## 📌3. VARIABEL GLOBAL
 ```
 queue<Customer> customerQueue;
 int customerCounter = 1;
@@ -31,7 +31,7 @@ int customerCounter = 1;
 * `customerQueue` &rarr; Queuue untuk menyimpan daftar pelanggan.
 * `customerCounter` &rarr; Variabel counter untuk memberikan nomor antrian secara otomatis
 --- 
-# 📌4. FUNGSI UNTUK MENGELOLA ANTRIAN
+## 📌4. FUNGSI UNTUK MENGELOLA ANTRIAN
 **🔷a). Fungsi untuk menambah pelanggan ke antrian**
 ```
 void addCustomer() {
@@ -85,7 +85,7 @@ while (!tempQueue.empty()) {
 * Menggunakan queue sementara (`tempQueue`) agar tidak mengubah queue utama saat menampilakn antrian
 * Menampilkan daftar pelanggan yang sedang menunggu dalam antrian.
 --- 
-# 📌5. FUNGSI `main()` (Menu Utama) 
+## 📌5. FUNGSI `main()` (Menu Utama) 
 ```
 int main() {
     int choice;
@@ -127,7 +127,21 @@ int main() {
   * `3` &rarr; Menampilkan daftar antrian (`displayQueue()`).
   * `4` &rarr; Keluar dari program.
   * Pilihan selain 1-4 akan menampilkan "Pesan tidak valid, coba lagi".
-  * --- 
+--- 
+**Contoh Eksekusi Program**
+<br>Contoh 1 : Menambahkan Pelanggan
+```
+Sistem Antrian Bank/Rumah Sakit
+1. Tambah pelanggan
+2. Layani pelanggan
+3. Tamppilkan antrian
+4. Keluar
+Pilihan : 1
+Masukan nama pelanggan : Andi
+Pelanggan Andi dengan nomor antrian 1 telah ditambahkan.
+```
+<br>Contoh 2 : Menampilkan Antrian<br />
+
 
 
 
