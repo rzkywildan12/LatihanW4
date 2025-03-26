@@ -159,7 +159,32 @@ Sistem Antrian Bank/Rumah Sakit
 3. Tamppilkan antrian
 4. Keluar
 Pilihan : 2
-Melaya
+Melayani Pelanggan : Andi (Nomor 1)
+```
+<br>🔷Contoh 4 : Menampilkan Antrian Setelah Pelanggan Dilayani<br />
+```
+Sistem Antrian Bank/Rumah Sakit
+1. Tambah pelanggan
+2. Layani pelanggan
+3. Tampilkan antrian
+4. Keluar
+Pilihan : 3
+Antrian kosong.
+```
+## 📌5. KESIMPULAN
+Program antrainQueue.cpp adalah implementasi sederha sistem antrian menggunakan queue dalam 
+<br>C++. Program ini memungkinkan pengguna untuk :<br />
+* Menambah pelanggan ke antrian.
+* Melayani pelanggan sesuai urutan FIFO
+* Melihat daftar pelanggan dalam antrian
+* Keluar dari program
+
+Program ini bisa digunakan dasar untuk aplikasi layanan pelanggan di bank, rumah sakit, atau
+<br>kantor layanan publik. Dengan beberapa pengembangan lebih lanjut, program ini bisa diubah menjadi<br />
+sistem yang lebih kompleks dengan GUI atau basis data
+
+
+
 
 
 
